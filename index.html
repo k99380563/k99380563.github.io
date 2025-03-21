@@ -3,24 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <button id="toggle-dark-mode">Toggle Dark Mode</button>
-    <header>
-        <h1>My Portfolio</h1>
-        <p>Welcome to my portfolio website.</p>
-        <img src="https://th.bing.com/th/id/R.cd8aee659b1e806060bb576f53ae9b31?rik=A9eovWnpGWhpvg&riu=http%3a%2f%2fwpdevshed.com%2fwp-content%2fuploads%2f2014%2f02%2fwpdevshed-portfolio.jpg&ehk=EGg1rpxGZoifk3WEsv3cNA3A49JCmMGptzZiRqOO7RI%3d&risl=&pid=ImgRaw&r=0" alt="My Profile Picture">
-    </header>
-    <section>
-        <h2>Projects</h2>
+    <button id="toggle-dark-mode">🌙 Toggle Dark Mode</button>
+    <div class="portfolio-card">
+        <img src="profile.jpg" alt="My Profile Picture">
+        <h1>Asis Kaur</h1>
+        <p>📍 Web Developer | UI/UX Enthusiast | Tech Lover</p>
+        <h2>My Projects</h2>
         <ul>
-            <li>Project 1 - Web App</li>
-            <li>Project 2 - Data Analysis</li>
-            <li>Project 3 - AI Model</li>
+            <li>💻 AI-Powered Traffic Model</li>
+            <li>📊 Data Science Analysis</li>
+            <li>📱 Mobile App UI Design</li>
         </ul>
-    </section>
+    </div>
+    
     <script>
         const toggleBtn = document.getElementById("toggle-dark-mode");
         toggleBtn.addEventListener("click", () => {
